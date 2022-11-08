@@ -1,0 +1,181 @@
+*{
+margin: 0;
+}
+.header{
+    width:100%;
+    height: 91px;
+    background-color:#128c7e;
+    display: flex;
+}
+.header-left{
+    height:100%;
+    width: 30%;
+}
+.container{
+display: flex;
+flex-direction: column;
+
+}
+.logo{
+    width: 185px;
+    padding-left: 179px;
+    padding-top: 15px;
+    cursor: pointer;
+}
+.header-list{
+    padding-left: 50px;
+    float: left;
+    list-style: none;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #fff;
+    padding-top: 35px;
+    cursor: pointer;
+    
+}
+
+.main-body{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.main-body-left{
+    width: 50%;
+    height:378px;
+    padding-top: 122px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+
+}
+.spacing{
+    margin-left: 285px;
+    font-size: 28px;
+}
+.main-body-right{
+    width: 680px;
+   
+}
+.whatsappmob1{
+    width: 245px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+.sub-body{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    padding-top: 35px;
+}
+.sub-body1{
+    width: 50%;
+    height: 100%;
+}
+.sub-body2{
+    width: 50%;
+    height: 100%;
+}
+.sub-left{
+    width: 70%;
+    height: 100%;
+    margin-left: 152px;
+    text-align: center;
+    background-color:  #dee5f3;;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+.mobimage2{
+    width: 296px;
+    margin-top: 150px;
+}
+.sub-right{
+    width: 540px;
+    height: 100%;
+    text-align: center;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #1c1e21;
+    background-color:  #eaeef7;
+    margin-left: 45px;
+}
+.last-pic{
+    width: 300px;
+    margin-left: -21px;
+    margin-top: 16px;
+}
+.footer-button{
+    width: 100%;
+    height: 160px;
+    text-align: center;
+}
+.f-button{
+    margin-top: 55px;
+    width: 188px;
+    height: 50px;
+    border-width: 1px;
+    border-radius: 100px;
+    border-color: #385898;
+    color: #385898;
+    cursor: pointer;
+    background-color: #fff;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #1c1e21;
+}
+.p-1{
+    font-size: 14px;
+}
+.footer-1{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+}
+.f-table{
+    width: 79%;
+    height: 100%;
+    margin-left: 134px;
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 10px;
+    color: #F0F4F9;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+table{
+    margin-top: 10px;
+    width: 70%;
+}
+table:hover{
+    cursor: pointer;
+}
+.footer-2{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.inner-footer2{
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #fff;
+}
+#last-1{
+    cursor: pointer;
+}
+select{
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    align-items: center;
+    margin-top: 32px;
+    font-size: 17px;
+    margin-left: 52px;
+    
+}
